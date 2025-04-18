@@ -1,4 +1,4 @@
-# 🎛️ AI Mastering Tool for Indie Artists
+# 🎛️ AI Mastering Tool
 
 **A Python-based AI audio mastering service** that helps musicians enhance their tracks instantly. Built with Flask, librosa, and AWS S3. Currently in beta!
 
