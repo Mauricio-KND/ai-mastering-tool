@@ -29,21 +29,24 @@
    cd ai-mastering-tool
 Set up environment:
 
-bash
+```bash
 Copy
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate    # Windows
 pip install -r requirements.txt
 Configure AWS credentials:
+```
 
-bash
+```bash
 Copy
 echo "AWS_ACCESS_KEY=your_key" > .env
 echo "AWS_SECRET_KEY=your_secret" >> .env
 Run locally:
+```
 
-bash
+```bash
+
 Copy
 python app.py
 🌐 API Endpoints
@@ -51,8 +54,10 @@ Endpoint	Method	Description
 /master	POST	Upload a WAV/MP3 file for mastering
 /healthcheck	GET	Server status
 Example Request:
+```
 
-bash
+```bash
+
 Copy
 curl -X POST -F "file=@song.wav" https://your-render-url.onrender.com/master
 📈 Roadmap
@@ -63,6 +68,7 @@ Day 2: Integrate HuggingFace audio model
 Week 2: User accounts (Firebase Auth)
 
 Month 1: Subscription billing
+```
 
 🤝 How to Contribute
 Fork the project
