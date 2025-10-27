@@ -83,6 +83,3 @@ This is a beta project! Mastering quality will improve as AI models are added.
 
 Note
 For beta access, visit: youraimastering.carrd.co
-
-
-Would you like me to add a "Troubleshooting" section or contributor guidelines?
