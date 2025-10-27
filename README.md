@@ -30,7 +30,6 @@
 Set up environment:
 
 ```bash
-Copy
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate    # Windows
@@ -39,7 +38,6 @@ Configure AWS credentials:
 ```
 
 ```bash
-Copy
 echo "AWS_ACCESS_KEY=your_key" > .env
 echo "AWS_SECRET_KEY=your_secret" >> .env
 Run locally:
@@ -57,8 +55,6 @@ Example Request:
 ```
 
 ```bash
-
-Copy
 curl -X POST -F "file=@song.wav" https://your-render-url.onrender.com/master
 📈 Roadmap
 Day 1: MVP with basic audio processing
